@@ -1,0 +1,25 @@
+{
+  "name": "cloud-flare-tutorial",
+  "version": "1.0.0",
+  "description": "learning",
+  "homepage": "https://github.com/aprakash97/cloud-flare-learning#readme",
+  "bugs": {
+    "url": "https://github.com/aprakash97/cloud-flare-learning/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aprakash97/cloud-flare-learning.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.110.0"
+  }
+}
